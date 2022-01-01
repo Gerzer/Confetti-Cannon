@@ -1,0 +1,14 @@
+:root {
+	color-scheme: light dark;
+}
+
+body {
+	width: 100px;
+	padding: 10px;
+	font-family: system-ui;
+	text-align: center;
+}
+
+#btn-confetti {
+	margin-top: 10px;
+}

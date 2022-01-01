@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0E44A6627741C2E00AC70C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A6527741C2E00AC70C8 /* AppDelegate.swift */; };
+		C0E44A6827741C2E00AC70C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A6727741C2E00AC70C8 /* SceneDelegate.swift */; };
+		C0E44A6B27741C2E00AC70C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A6927741C2E00AC70C8 /* LaunchScreen.storyboard */; };
+		C0E44A6E27741C2E00AC70C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A6C27741C2E00AC70C8 /* Main.storyboard */; };
+		C0E44A7727741C2E00AC70C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A7627741C2E00AC70C8 /* AppDelegate.swift */; };
+		C0E44A7A27741C2E00AC70C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A7827741C2E00AC70C8 /* Main.storyboard */; };
+		C0E44A8127741C2E00AC70C8 /* Confetti Cannon Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0E44A8027741C2E00AC70C8 /* Confetti Cannon Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0E44A8B27741C2E00AC70C8 /* Confetti Cannon Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C0E44A8A27741C2E00AC70C8 /* Confetti Cannon Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C0E44A9127741C2E00AC70C8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A4C27741C2D00AC70C8 /* Main.html */; };
+		C0E44A9227741C2E00AC70C8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A4C27741C2D00AC70C8 /* Main.html */; };
+		C0E44A9327741C2E00AC70C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A4E27741C2D00AC70C8 /* Icon.png */; };
+		C0E44A9427741C2E00AC70C8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A4E27741C2D00AC70C8 /* Icon.png */; };
+		C0E44A9527741C2E00AC70C8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A4F27741C2D00AC70C8 /* Style.css */; };
+		C0E44A9627741C2E00AC70C8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A4F27741C2D00AC70C8 /* Style.css */; };
+		C0E44A9727741C2E00AC70C8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5027741C2D00AC70C8 /* Script.js */; };
+		C0E44A9827741C2E00AC70C8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5027741C2D00AC70C8 /* Script.js */; };
+		C0E44A9927741C2E00AC70C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A5127741C2D00AC70C8 /* ViewController.swift */; };
+		C0E44A9A27741C2E00AC70C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A5127741C2D00AC70C8 /* ViewController.swift */; };
+		C0E44A9B27741C2E00AC70C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5227741C2E00AC70C8 /* Assets.xcassets */; };
+		C0E44A9C27741C2E00AC70C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5227741C2E00AC70C8 /* Assets.xcassets */; };
+		C0E44A9D27741C2E00AC70C8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A5427741C2E00AC70C8 /* SafariWebExtensionHandler.swift */; };
+		C0E44A9E27741C2E00AC70C8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E44A5427741C2E00AC70C8 /* SafariWebExtensionHandler.swift */; };
+		C0E44A9F27741C2E00AC70C8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5627741C2E00AC70C8 /* _locales */; };
+		C0E44AA027741C2E00AC70C8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5627741C2E00AC70C8 /* _locales */; };
+		C0E44AA127741C2E00AC70C8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5727741C2E00AC70C8 /* images */; };
+		C0E44AA227741C2E00AC70C8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5727741C2E00AC70C8 /* images */; };
+		C0E44AA327741C2E00AC70C8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5827741C2E00AC70C8 /* manifest.json */; };
+		C0E44AA427741C2E00AC70C8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5827741C2E00AC70C8 /* manifest.json */; };
+		C0E44AA527741C2E00AC70C8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5927741C2E00AC70C8 /* background.js */; };
+		C0E44AA627741C2E00AC70C8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5927741C2E00AC70C8 /* background.js */; };
+		C0E44AA727741C2E00AC70C8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5A27741C2E00AC70C8 /* content.js */; };
+		C0E44AA827741C2E00AC70C8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5A27741C2E00AC70C8 /* content.js */; };
+		C0E44AA927741C2E00AC70C8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5B27741C2E00AC70C8 /* popup.html */; };
+		C0E44AAA27741C2E00AC70C8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5B27741C2E00AC70C8 /* popup.html */; };
+		C0E44AAB27741C2E00AC70C8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5C27741C2E00AC70C8 /* popup.css */; };
+		C0E44AAC27741C2E00AC70C8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5C27741C2E00AC70C8 /* popup.css */; };
+		C0E44AAD27741C2E00AC70C8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5D27741C2E00AC70C8 /* popup.js */; };
+		C0E44AAE27741C2E00AC70C8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C0E44A5D27741C2E00AC70C8 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E44A8227741C2E00AC70C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E44A4627741C2D00AC70C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E44A7F27741C2E00AC70C8;
+			remoteInfo = "Confetti Cannon Extension (iOS)";
+		};
+		C0E44A8C27741C2E00AC70C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E44A4627741C2D00AC70C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E44A8927741C2E00AC70C8;
+			remoteInfo = "Confetti Cannon Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0E44AB427741C2E00AC70C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0E44A8127741C2E00AC70C8 /* Confetti Cannon Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44ABB27741C2E00AC70C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C0E44A8B27741C2E00AC70C8 /* Confetti Cannon Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0E44A4D27741C2D00AC70C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		C0E44A4E27741C2D00AC70C8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C0E44A4F27741C2D00AC70C8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C0E44A5027741C2D00AC70C8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C0E44A5127741C2D00AC70C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0E44A5227741C2E00AC70C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0E44A5427741C2E00AC70C8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C0E44A5627741C2E00AC70C8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		C0E44A5727741C2E00AC70C8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C0E44A5827741C2E00AC70C8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C0E44A5927741C2E00AC70C8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		C0E44A5A27741C2E00AC70C8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C0E44A5B27741C2E00AC70C8 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		C0E44A5C27741C2E00AC70C8 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		C0E44A5D27741C2E00AC70C8 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		C0E44A6227741C2E00AC70C8 /* Confetti Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Confetti Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E44A6527741C2E00AC70C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0E44A6727741C2E00AC70C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0E44A6A27741C2E00AC70C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0E44A6D27741C2E00AC70C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0E44A6F27741C2E00AC70C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E44A7427741C2E00AC70C8 /* Confetti Cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Confetti Cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E44A7627741C2E00AC70C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0E44A7927741C2E00AC70C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0E44A7B27741C2E00AC70C8 /* Confetti Cannon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Confetti Cannon.entitlements"; sourceTree = "<group>"; };
+		C0E44A8027741C2E00AC70C8 /* Confetti Cannon Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Confetti Cannon Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E44A8527741C2E00AC70C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E44A8A27741C2E00AC70C8 /* Confetti Cannon Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Confetti Cannon Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E44A8F27741C2E00AC70C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E44A9027741C2E00AC70C8 /* Confetti Cannon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Confetti Cannon.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E44A5F27741C2E00AC70C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A7127741C2E00AC70C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A7D27741C2E00AC70C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A8727741C2E00AC70C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E44A4527741C2D00AC70C8 = {
+			isa = PBXGroup;
+			children = (
+				C0E44A4A27741C2D00AC70C8 /* Shared (App) */,
+				C0E44A5327741C2E00AC70C8 /* Shared (Extension) */,
+				C0E44A6427741C2E00AC70C8 /* iOS (App) */,
+				C0E44A7527741C2E00AC70C8 /* macOS (App) */,
+				C0E44A8427741C2E00AC70C8 /* iOS (Extension) */,
+				C0E44A8E27741C2E00AC70C8 /* macOS (Extension) */,
+				C0E44A6327741C2E00AC70C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E44A4A27741C2D00AC70C8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A5127741C2D00AC70C8 /* ViewController.swift */,
+				C0E44A5227741C2E00AC70C8 /* Assets.xcassets */,
+				C0E44A4B27741C2D00AC70C8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C0E44A4B27741C2D00AC70C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A4C27741C2D00AC70C8 /* Main.html */,
+				C0E44A4E27741C2D00AC70C8 /* Icon.png */,
+				C0E44A4F27741C2D00AC70C8 /* Style.css */,
+				C0E44A5027741C2D00AC70C8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0E44A5327741C2E00AC70C8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A5427741C2E00AC70C8 /* SafariWebExtensionHandler.swift */,
+				C0E44A5527741C2E00AC70C8 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C0E44A5527741C2E00AC70C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A5627741C2E00AC70C8 /* _locales */,
+				C0E44A5727741C2E00AC70C8 /* images */,
+				C0E44A5827741C2E00AC70C8 /* manifest.json */,
+				C0E44A5927741C2E00AC70C8 /* background.js */,
+				C0E44A5A27741C2E00AC70C8 /* content.js */,
+				C0E44A5B27741C2E00AC70C8 /* popup.html */,
+				C0E44A5C27741C2E00AC70C8 /* popup.css */,
+				C0E44A5D27741C2E00AC70C8 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0E44A6327741C2E00AC70C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A6227741C2E00AC70C8 /* Confetti Cannon.app */,
+				C0E44A7427741C2E00AC70C8 /* Confetti Cannon.app */,
+				C0E44A8027741C2E00AC70C8 /* Confetti Cannon Extension.appex */,
+				C0E44A8A27741C2E00AC70C8 /* Confetti Cannon Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E44A6427741C2E00AC70C8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A6527741C2E00AC70C8 /* AppDelegate.swift */,
+				C0E44A6727741C2E00AC70C8 /* SceneDelegate.swift */,
+				C0E44A6927741C2E00AC70C8 /* LaunchScreen.storyboard */,
+				C0E44A6C27741C2E00AC70C8 /* Main.storyboard */,
+				C0E44A6F27741C2E00AC70C8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C0E44A7527741C2E00AC70C8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A7627741C2E00AC70C8 /* AppDelegate.swift */,
+				C0E44A7827741C2E00AC70C8 /* Main.storyboard */,
+				C0E44A7B27741C2E00AC70C8 /* Confetti Cannon.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C0E44A8427741C2E00AC70C8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A8527741C2E00AC70C8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C0E44A8E27741C2E00AC70C8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C0E44A8F27741C2E00AC70C8 /* Info.plist */,
+				C0E44A9027741C2E00AC70C8 /* Confetti Cannon.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E44A6127741C2E00AC70C8 /* Confetti Cannon (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E44AB527741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon (iOS)" */;
+			buildPhases = (
+				C0E44A5E27741C2E00AC70C8 /* Sources */,
+				C0E44A5F27741C2E00AC70C8 /* Frameworks */,
+				C0E44A6027741C2E00AC70C8 /* Resources */,
+				C0E44AB427741C2E00AC70C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E44A8327741C2E00AC70C8 /* PBXTargetDependency */,
+			);
+			name = "Confetti Cannon (iOS)";
+			productName = "Confetti Cannon (iOS)";
+			productReference = C0E44A6227741C2E00AC70C8 /* Confetti Cannon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E44A7327741C2E00AC70C8 /* Confetti Cannon (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E44ABC27741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon (macOS)" */;
+			buildPhases = (
+				C0E44A7027741C2E00AC70C8 /* Sources */,
+				C0E44A7127741C2E00AC70C8 /* Frameworks */,
+				C0E44A7227741C2E00AC70C8 /* Resources */,
+				C0E44ABB27741C2E00AC70C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E44A8D27741C2E00AC70C8 /* PBXTargetDependency */,
+			);
+			name = "Confetti Cannon (macOS)";
+			productName = "Confetti Cannon (macOS)";
+			productReference = C0E44A7427741C2E00AC70C8 /* Confetti Cannon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E44A7F27741C2E00AC70C8 /* Confetti Cannon Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E44AB127741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon Extension (iOS)" */;
+			buildPhases = (
+				C0E44A7C27741C2E00AC70C8 /* Sources */,
+				C0E44A7D27741C2E00AC70C8 /* Frameworks */,
+				C0E44A7E27741C2E00AC70C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Confetti Cannon Extension (iOS)";
+			productName = "Confetti Cannon Extension (iOS)";
+			productReference = C0E44A8027741C2E00AC70C8 /* Confetti Cannon Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C0E44A8927741C2E00AC70C8 /* Confetti Cannon Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E44AB827741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon Extension (macOS)" */;
+			buildPhases = (
+				C0E44A8627741C2E00AC70C8 /* Sources */,
+				C0E44A8727741C2E00AC70C8 /* Frameworks */,
+				C0E44A8827741C2E00AC70C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Confetti Cannon Extension (macOS)";
+			productName = "Confetti Cannon Extension (macOS)";
+			productReference = C0E44A8A27741C2E00AC70C8 /* Confetti Cannon Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E44A4627741C2D00AC70C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C0E44A6127741C2E00AC70C8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					C0E44A7327741C2E00AC70C8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					C0E44A7F27741C2E00AC70C8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					C0E44A8927741C2E00AC70C8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = C0E44A4927741C2D00AC70C8 /* Build configuration list for PBXProject "Confetti Cannon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0E44A4527741C2D00AC70C8;
+			productRefGroup = C0E44A6327741C2E00AC70C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E44A6127741C2E00AC70C8 /* Confetti Cannon (iOS) */,
+				C0E44A7327741C2E00AC70C8 /* Confetti Cannon (macOS) */,
+				C0E44A7F27741C2E00AC70C8 /* Confetti Cannon Extension (iOS) */,
+				C0E44A8927741C2E00AC70C8 /* Confetti Cannon Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E44A6027741C2E00AC70C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44A9327741C2E00AC70C8 /* Icon.png in Resources */,
+				C0E44A6B27741C2E00AC70C8 /* LaunchScreen.storyboard in Resources */,
+				C0E44A9127741C2E00AC70C8 /* Main.html in Resources */,
+				C0E44A9727741C2E00AC70C8 /* Script.js in Resources */,
+				C0E44A9B27741C2E00AC70C8 /* Assets.xcassets in Resources */,
+				C0E44A6E27741C2E00AC70C8 /* Main.storyboard in Resources */,
+				C0E44A9527741C2E00AC70C8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A7227741C2E00AC70C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44A9427741C2E00AC70C8 /* Icon.png in Resources */,
+				C0E44A9627741C2E00AC70C8 /* Style.css in Resources */,
+				C0E44A7A27741C2E00AC70C8 /* Main.storyboard in Resources */,
+				C0E44A9827741C2E00AC70C8 /* Script.js in Resources */,
+				C0E44A9C27741C2E00AC70C8 /* Assets.xcassets in Resources */,
+				C0E44A9227741C2E00AC70C8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A7E27741C2E00AC70C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44AA527741C2E00AC70C8 /* background.js in Resources */,
+				C0E44AAB27741C2E00AC70C8 /* popup.css in Resources */,
+				C0E44AA927741C2E00AC70C8 /* popup.html in Resources */,
+				C0E44AA127741C2E00AC70C8 /* images in Resources */,
+				C0E44AA327741C2E00AC70C8 /* manifest.json in Resources */,
+				C0E44A9F27741C2E00AC70C8 /* _locales in Resources */,
+				C0E44AA727741C2E00AC70C8 /* content.js in Resources */,
+				C0E44AAD27741C2E00AC70C8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A8827741C2E00AC70C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44AA627741C2E00AC70C8 /* background.js in Resources */,
+				C0E44AAC27741C2E00AC70C8 /* popup.css in Resources */,
+				C0E44AAA27741C2E00AC70C8 /* popup.html in Resources */,
+				C0E44AA227741C2E00AC70C8 /* images in Resources */,
+				C0E44AA427741C2E00AC70C8 /* manifest.json in Resources */,
+				C0E44AA027741C2E00AC70C8 /* _locales in Resources */,
+				C0E44AA827741C2E00AC70C8 /* content.js in Resources */,
+				C0E44AAE27741C2E00AC70C8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E44A5E27741C2E00AC70C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44A9927741C2E00AC70C8 /* ViewController.swift in Sources */,
+				C0E44A6627741C2E00AC70C8 /* AppDelegate.swift in Sources */,
+				C0E44A6827741C2E00AC70C8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A7027741C2E00AC70C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44A9A27741C2E00AC70C8 /* ViewController.swift in Sources */,
+				C0E44A7727741C2E00AC70C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A7C27741C2E00AC70C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44A9D27741C2E00AC70C8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E44A8627741C2E00AC70C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E44A9E27741C2E00AC70C8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E44A8327741C2E00AC70C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E44A7F27741C2E00AC70C8 /* Confetti Cannon Extension (iOS) */;
+			targetProxy = C0E44A8227741C2E00AC70C8 /* PBXContainerItemProxy */;
+		};
+		C0E44A8D27741C2E00AC70C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E44A8927741C2E00AC70C8 /* Confetti Cannon Extension (macOS) */;
+			targetProxy = C0E44A8C27741C2E00AC70C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0E44A4C27741C2D00AC70C8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E44A4D27741C2D00AC70C8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C0E44A6927741C2E00AC70C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E44A6A27741C2E00AC70C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C0E44A6C27741C2E00AC70C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E44A6D27741C2E00AC70C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0E44A7827741C2E00AC70C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E44A7927741C2E00AC70C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E44AAF27741C2E00AC70C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0E44AB027741C2E00AC70C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C0E44AB227741C2E00AC70C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon.extension;
+				PRODUCT_NAME = "Confetti Cannon Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0E44AB327741C2E00AC70C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon.extension;
+				PRODUCT_NAME = "Confetti Cannon Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E44AB627741C2E00AC70C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon;
+				PRODUCT_NAME = "Confetti Cannon";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0E44AB727741C2E00AC70C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon;
+				PRODUCT_NAME = "Confetti Cannon";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E44AB927741C2E00AC70C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Confetti Cannon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon.extension;
+				PRODUCT_NAME = "Confetti Cannon Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0E44ABA27741C2E00AC70C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Confetti Cannon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon.extension;
+				PRODUCT_NAME = "Confetti Cannon Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0E44ABD27741C2E00AC70C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Confetti Cannon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon;
+				PRODUCT_NAME = "Confetti Cannon";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0E44ABE27741C2E00AC70C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Confetti Cannon.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SYBLH277NF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Confetti Cannon";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gerzer.confetticannon;
+				PRODUCT_NAME = "Confetti Cannon";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E44A4927741C2D00AC70C8 /* Build configuration list for PBXProject "Confetti Cannon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E44AAF27741C2E00AC70C8 /* Debug */,
+				C0E44AB027741C2E00AC70C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E44AB127741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E44AB227741C2E00AC70C8 /* Debug */,
+				C0E44AB327741C2E00AC70C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E44AB527741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E44AB627741C2E00AC70C8 /* Debug */,
+				C0E44AB727741C2E00AC70C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E44AB827741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E44AB927741C2E00AC70C8 /* Debug */,
+				C0E44ABA27741C2E00AC70C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E44ABC27741C2E00AC70C8 /* Build configuration list for PBXNativeTarget "Confetti Cannon (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E44ABD27741C2E00AC70C8 /* Debug */,
+				C0E44ABE27741C2E00AC70C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E44A4627741C2D00AC70C8 /* Project object */;
+}

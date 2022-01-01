@@ -1,0 +1,10 @@
+{
+	"extension_name": {
+		"message": "Confetti Cannon",
+		"description": "The display name for the extension."
+	},
+	"extension_description": {
+		"message": "Confetti Cannon lets you see confetti on Submitty, even when you don’t deserve it!",
+		"description": "Description of what the extension does."
+	}
+}
